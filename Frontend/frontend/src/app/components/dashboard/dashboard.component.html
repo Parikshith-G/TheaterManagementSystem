@@ -1,0 +1,95 @@
+<!-- SIDEBAR -->
+<i class="fa-solid fa-chair">hello</i>
+<section id="sidebar" [ngClass]="status ? 'hide' : ''">
+  <div class="brand">
+    <i class="bx bxs-smile"></i>
+    <span class="text">AdminHub</span>
+  </div>
+  <ul class="side-menu top">
+    <li>
+      <a [routerLink]="['/dashboard']" [queryParams]="{ flag: 0 }">
+        <i class="bx bxs-building-house"></i>
+        <span class="text">Theaters</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/dashboard']" [queryParams]="{ flag: 1 }">
+        &nbsp;&nbsp;&nbsp;
+        <i class="fa fa-solid fa-house"></i>
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="text">Rooms</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/dashboard']" [queryParams]="{ flag: 2 }">
+        <i class="bx bxs-film"></i>
+        <span class="text">Shows</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/dashboard']" [queryParams]="{ flag: 3 }">
+        <i class="bx bx-movie-play"></i>
+        <span class="text">Movies</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="side-menu">
+    <li>
+      <a [routerLink]="['/dashboard']" [queryParams]="{ flag: 4 }">
+        <i class="bx bxs-user"></i>
+        <span class="text">Users</span>
+      </a>
+    </li>
+    <li *ngIf="role === 'GOD'">
+      <a
+        (click)="roleSwapper()"
+        [routerLink]="['/dashboard']"
+        [queryParams]="{ role: role == 'GOD' ? 'GOD' : '1' }"
+      >
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa-solid fa-user-tie"></i>
+        &nbsp;&nbsp;&nbsp;
+        <span class="text">Administrators</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/theaters']" class="logout">
+        <i class="bx bxs-log-out-circle"></i>
+        <span class="text">Skip Work</span>
+      </a>
+    </li>
+  </ul>
+</section>
+<!-- SIDEBAR -->
+
+<!-- CONTENT -->
+<section id="content">
+  <!-- NAVBAR -->
+
+  <!-- MAIN -->
+  <main>
+    <i (click)="addToggle()" class="bx bx-menu"></i>
+
+    <div *ngIf="flag === 0">
+      <app-theaters></app-theaters>
+    </div>
+    <div *ngIf="flag === 1">
+      <app-rooms></app-rooms>
+    </div>
+    <div *ngIf="flag === 2">
+      <app-shows></app-shows>
+    </div>
+    <div *ngIf="flag === 3">
+      <app-movies></app-movies>
+    </div>
+
+    <div *ngIf="flag === 4">
+      <app-all-users-no-admins></app-all-users-no-admins>
+    </div>
+
+    <div *ngIf="flag === 5">
+      <app-all-admins></app-all-admins>
+    </div>
+  </main>
+</section>

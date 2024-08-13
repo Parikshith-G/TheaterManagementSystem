@@ -1,0 +1,117 @@
+<div class="col-md-12">
+  <div class="card card-container">
+    <form [formGroup]="paymentForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <div class="alert alert-danger" role="alert" *ngIf="error">
+          Payment failed: {{ error }}
+        </div>
+        <div class="alert alert-success" role="alert" *ngIf="paymentId">
+          Payment Success. Payment ID: {{ paymentId }}
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="name"
+          required
+        />
+        <div
+          class="alert-danger"
+          *ngIf="
+            paymentForm.get('name')?.invalid &&
+            (paymentForm.get('name')?.dirty || paymentForm.get('name')?.touched)
+          "
+        >
+          <div *ngIf="paymentForm.get('name')?.errors?.['required']">
+            Name is required
+          </div>
+          <div *ngIf="paymentForm.get('name')?.errors?.['minlength']">
+            Name must be at least 3 characters
+          </div>
+          <div *ngIf="paymentForm.get('name')?.errors?.['maxlength']">
+            Name must be at most 20 characters
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          formControlName="email"
+          required
+        />
+        <div
+          class="alert alert-danger"
+          role="alert"
+          *ngIf="
+            paymentForm.get('email')?.invalid &&
+            (paymentForm.get('email')?.dirty ||
+              paymentForm.get('email')?.touched)
+          "
+        >
+          Email is required!
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="phone"
+          required
+        />
+        <div
+          class="alert alert-danger"
+          role="alert"
+          *ngIf="
+            paymentForm.get('phone')?.invalid &&
+            (paymentForm.get('phone')?.dirty ||
+              paymentForm.get('phone')?.touched)
+          "
+        >
+          <div *ngIf="paymentForm.get('phone')?.errors?.['required']">
+            Phone is required
+          </div>
+          <div
+            *ngIf="paymentForm.get('phone')?.errors?.['minlength'] || paymentForm.get('phone')?.errors?.['maxlength']"
+          >
+            Phone must be 10 digits
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input
+          type="number"
+          class="form-control"
+          formControlName="amount"
+        
+          [disabled]="true"
+        />
+        <div
+          class="alert alert-danger"
+          role="alert"
+          *ngIf="
+            paymentForm.get('amount')?.invalid &&
+            (paymentForm.get('amount')?.dirty ||
+              paymentForm.get('amount')?.touched)
+          "
+        >
+          Amount is required
+        </div>
+      </div>
+      <div class="form-group">
+        <button
+          class="btn btn-primary btn-block"
+          type="submit"
+          [disabled]="paymentForm.invalid"
+        >
+          Pay
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

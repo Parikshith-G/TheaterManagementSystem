@@ -1,0 +1,44 @@
+<!-- <h1 mat-dialog-title class="heading">Seats for {{ data.roomName }}</h1>
+<div mat-dialog-content>
+  <div class="seat-container">
+    <div
+      *ngFor="let seat of data.seatStatuses"
+      class="seat"
+      (click)="onSeatClick(seat)"
+    >
+      <img
+        [src]="!seat.booked ? 'assets/seat_free.png ' : 'assets/seat_full.png'"
+        [alt]="!seat.booked ? 'Occupied Seat' : 'Available Seat'"
+        class="seat-image"
+      />
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button class="btn btn-primary" mat-button (click)="onNoClick()">
+    Close
+  </button>
+</div> -->
+
+<h1 mat-dialog-title class="heading">Seats for {{ data.roomName }}</h1>
+<div mat-dialog-content>
+  <div class="seat-container">
+    <div
+      *ngFor="let seat of data.seatStatuses"
+      class="seat"
+      [ngClass]="{ booked: seat.booked, available: !seat.booked }"
+      (click)="onSeatClick(seat)"
+    >
+      <img
+        [src]="seat.booked ? 'assets/seat_full.png' : 'assets/seat_free.png'"
+        [alt]="seat.booked ? 'Occupied Seat' : 'Available Seat'"
+        class="seat-image"
+      />
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button class="btn btn-primary" mat-button (click)="onNoClick()">
+    Close
+  </button>
+</div>

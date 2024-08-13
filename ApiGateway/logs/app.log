@@ -1,0 +1,20 @@
+2024-08-13 09:09:44 [RMI TCP Connection(102)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-08-13 09:09:44 [RMI TCP Connection(102)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application APIGATEWAY with eureka with status DOWN
+2024-08-13 09:09:44 [RMI TCP Connection(102)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1723520384205, current=DOWN, previous=UP]
+2024-08-13 09:09:44 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086: registering service...
+2024-08-13 09:09:44 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 - registration status: 204
+2024-08-13 09:09:44 [RMI TCP Connection(102)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-08-13 09:09:47 [DiscoveryClient-0] WARN  c.n.discovery.TimedSupervisorTask -
+				task supervisor shutting down, can't accept the task
+2024-08-13 09:09:47 [RMI TCP Connection(102)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2024-08-13 09:09:47 [RMI TCP Connection(102)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 - deregister  status: 200
+2024-08-13 09:09:47 [RMI TCP Connection(102)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient

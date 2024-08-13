@@ -1,0 +1,1906 @@
+2024-07-24 00:00:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 195ms
+2024-07-24 00:01:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 195ms
+2024-07-24 00:02:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 164ms
+2024-07-24 00:03:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 00:04:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 00:05:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 00:06:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 00:07:01 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 00:07:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 00:08:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 00:09:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 00:10:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 00:11:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 00:12:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 00:13:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 00:14:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 17ms
+2024-07-24 00:15:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 00:16:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 00:17:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 00:18:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 00:19:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 00:20:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 00:21:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 00:22:01 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 00:22:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 00:23:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 00:24:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 00:25:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 00:26:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 05:27:04 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 17999503ms
+2024-07-24 09:18:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13822881ms
+2024-07-24 09:19:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:20:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:21:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 09:22:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 27ms
+2024-07-24 09:23:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 09:24:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 09:25:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:26:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 09:27:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 09:27:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 09:28:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:29:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 09:30:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 09:31:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:32:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 09:33:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 09:34:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:35:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 09:36:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 09:37:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 09:38:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 127ms
+2024-07-24 09:39:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 09:40:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:41:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 09:42:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 09:42:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 09:43:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:44:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 09:45:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:46:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 09:47:06 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 09:48:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 09:49:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 09:50:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 09:51:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 09:52:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 09:53:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 09:54:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 09:55:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 16ms
+2024-07-24 09:56:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 21ms
+2024-07-24 09:57:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 09:57:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 16ms
+2024-07-24 09:58:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 20ms
+2024-07-24 09:59:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 10:00:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:01:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:02:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 10:03:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:04:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:05:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:06:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:07:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:08:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:09:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:10:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:11:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:12:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 10:12:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:13:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 10:14:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 10:15:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 10:16:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:17:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 10:18:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 10:19:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 10:20:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 10:21:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:22:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 10:23:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 10:24:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 10:25:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 10:26:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:27:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 10:27:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:28:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 10:29:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 10:30:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 10:31:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 10:32:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 10:33:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 10:34:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 10:35:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 10:36:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 10:37:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 10:38:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 10:39:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:40:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:41:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 10:42:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 10:42:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 10:43:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 10:44:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 10:45:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 10:46:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 10:47:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 10:48:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 10:49:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 10:50:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 10:51:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 10:52:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 10:53:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:54:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 10:55:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 10:56:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:57:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 10:57:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 10:58:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:59:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 10:59:20 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=false)
+2024-07-24 10:59:21 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=false)
+2024-07-24 10:59:21 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=false)
+2024-07-24 10:59:21 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=true)
+2024-07-24 10:59:21 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=true)
+2024-07-24 10:59:21 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=true)
+2024-07-24 10:59:24 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 (replication=false)
+2024-07-24 10:59:25 [http-nio-8761-exec-25] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 10:59:25 [http-nio-8761-exec-25] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 10:59:25 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost failed with response code 404
+2024-07-24 10:59:25 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost: missing entry.
+2024-07-24 10:59:25 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=false)
+2024-07-24 10:59:25 [http-nio-8761-exec-19] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 10:59:25 [http-nio-8761-exec-19] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 10:59:25 [TaskBatchingWorker-target_localhost-6] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost failed with response code 404
+2024-07-24 10:59:25 [TaskBatchingWorker-target_localhost-6] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost: missing entry.
+2024-07-24 10:59:29 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 (replication=false)
+2024-07-24 10:59:30 [http-nio-8761-exec-25] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 10:59:30 [http-nio-8761-exec-25] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 10:59:30 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost failed with response code 404
+2024-07-24 10:59:30 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost: missing entry.
+2024-07-24 10:59:42 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=false)
+2024-07-24 10:59:43 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=true)
+2024-07-24 10:59:44 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=false)
+2024-07-24 10:59:45 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=true)
+2024-07-24 10:59:46 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=false)
+2024-07-24 10:59:47 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=true)
+2024-07-24 11:00:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:01:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 11:02:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:03:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 11:04:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 11:05:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 11:06:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 11:07:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:07:46 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=false)
+2024-07-24 11:07:46 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=false)
+2024-07-24 11:07:46 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=false)
+2024-07-24 11:07:47 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=true)
+2024-07-24 11:07:47 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=true)
+2024-07-24 11:07:47 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=true)
+2024-07-24 11:07:49 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 (replication=false)
+2024-07-24 11:07:49 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=false)
+2024-07-24 11:07:50 [http-nio-8761-exec-19] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 11:07:50 [http-nio-8761-exec-19] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 11:07:50 [http-nio-8761-exec-19] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 11:07:50 [http-nio-8761-exec-19] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 11:07:50 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost failed with response code 404
+2024-07-24 11:07:50 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost: missing entry.
+2024-07-24 11:07:50 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost failed with response code 404
+2024-07-24 11:07:50 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost: missing entry.
+2024-07-24 11:07:52 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=false)
+2024-07-24 11:07:52 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=false)
+2024-07-24 11:07:53 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=true)
+2024-07-24 11:07:53 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=true)
+2024-07-24 11:07:53 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 (replication=false)
+2024-07-24 11:07:54 [http-nio-8761-exec-24] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 11:07:54 [http-nio-8761-exec-24] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 11:07:54 [TaskBatchingWorker-target_localhost-0] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost failed with response code 404
+2024-07-24 11:07:54 [TaskBatchingWorker-target_localhost-0] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost: missing entry.
+2024-07-24 11:07:56 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=false)
+2024-07-24 11:07:57 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=true)
+2024-07-24 11:08:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 11:09:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:09:46 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=false)
+2024-07-24 11:09:46 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=false)
+2024-07-24 11:09:47 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=false)
+2024-07-24 11:09:47 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=true)
+2024-07-24 11:09:47 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=true)
+2024-07-24 11:09:47 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=true)
+2024-07-24 11:09:49 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 (replication=false)
+2024-07-24 11:09:50 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=false)
+2024-07-24 11:09:50 [http-nio-8761-exec-29] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 11:09:50 [http-nio-8761-exec-29] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 11:09:50 [http-nio-8761-exec-29] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 11:09:50 [http-nio-8761-exec-29] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 11:09:50 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost failed with response code 404
+2024-07-24 11:09:50 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost: missing entry.
+2024-07-24 11:09:50 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost failed with response code 404
+2024-07-24 11:09:50 [TaskBatchingWorker-target_localhost-16] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost: missing entry.
+2024-07-24 11:09:52 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=false)
+2024-07-24 11:09:52 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=false)
+2024-07-24 11:09:53 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=true)
+2024-07-24 11:09:53 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=true)
+2024-07-24 11:09:54 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 (replication=false)
+2024-07-24 11:09:54 [http-nio-8761-exec-11] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 11:09:54 [http-nio-8761-exec-11] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 11:09:54 [TaskBatchingWorker-target_localhost-6] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost failed with response code 404
+2024-07-24 11:09:54 [TaskBatchingWorker-target_localhost-6] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost: missing entry.
+2024-07-24 11:09:56 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=false)
+2024-07-24 11:09:57 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=true)
+2024-07-24 11:10:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 11:11:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:12:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 11:12:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 45ms
+2024-07-24 11:13:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 11:14:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:15:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:16:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:17:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:18:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:19:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 11:20:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 11:21:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 11:22:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 11:23:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:24:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 11:25:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:25:17 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=false)
+2024-07-24 11:25:17 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=false)
+2024-07-24 11:25:17 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=false)
+2024-07-24 11:25:17 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=true)
+2024-07-24 11:25:17 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=true)
+2024-07-24 11:25:17 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=true)
+2024-07-24 11:25:20 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 (replication=false)
+2024-07-24 11:25:20 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=false)
+2024-07-24 11:25:20 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 (replication=false)
+2024-07-24 11:25:20 [http-nio-8761-exec-24] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 11:25:20 [http-nio-8761-exec-24] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 11:25:20 [http-nio-8761-exec-24] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 11:25:20 [http-nio-8761-exec-24] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 11:25:20 [http-nio-8761-exec-24] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 11:25:20 [http-nio-8761-exec-24] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 11:25:20 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost failed with response code 404
+2024-07-24 11:25:20 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost: missing entry.
+2024-07-24 11:25:20 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost failed with response code 404
+2024-07-24 11:25:20 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost: missing entry.
+2024-07-24 11:25:20 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost failed with response code 404
+2024-07-24 11:25:20 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost: missing entry.
+2024-07-24 11:25:24 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=false)
+2024-07-24 11:25:24 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=false)
+2024-07-24 11:25:25 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=true)
+2024-07-24 11:25:25 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=true)
+2024-07-24 11:25:25 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=false)
+2024-07-24 11:25:25 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=true)
+2024-07-24 11:26:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 11:27:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 11:27:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:28:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 11:29:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 11:30:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 18ms
+2024-07-24 11:31:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:31:54 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 11:31:55 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 11:31:56 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 11:31:56 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 11:31:59 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 11:31:59 [http-nio-8761-exec-19] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:31:59 [http-nio-8761-exec-19] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:31:59 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 11:31:59 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 11:32:05 [http-nio-8761-exec-25] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:32:05 [http-nio-8761-exec-25] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:32:05 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 11:32:06 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 11:32:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 11:32:54 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 11:32:55 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 11:32:55 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 11:32:55 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 11:32:58 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 11:32:58 [http-nio-8761-exec-24] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:32:58 [http-nio-8761-exec-24] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:32:58 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 11:32:58 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 11:33:05 [http-nio-8761-exec-30] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:33:05 [http-nio-8761-exec-30] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:33:05 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 11:33:06 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 11:33:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 11:34:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 11:35:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 11:36:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 11:37:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 11:38:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 11:39:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 11:40:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 11:41:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 11:42:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 11:42:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 11:43:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 11:44:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:45:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 11:46:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 11:47:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 11:48:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 11:49:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 11:50:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 11:51:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 11:52:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 11:53:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 11:54:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 30ms
+2024-07-24 11:55:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 11:55:45 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 11:55:45 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 11:55:49 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 11:55:49 [http-nio-8761-exec-19] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:55:49 [http-nio-8761-exec-19] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:55:49 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 11:55:49 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 11:55:51 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 11:55:52 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 11:56:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 11:57:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 11:57:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 11:58:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 11:59:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 11:59:41 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 11:59:41 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 11:59:44 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 11:59:45 [http-nio-8761-exec-28] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:59:45 [http-nio-8761-exec-28] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 11:59:45 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 11:59:45 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 11:59:46 [http-nio-8761-exec-23] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 11:59:46 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 12:00:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 12:01:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:02:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 32ms
+2024-07-24 12:03:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 24ms
+2024-07-24 12:04:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 12:05:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:06:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 12:07:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:08:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 12:09:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:10:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:11:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 12:12:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 12:12:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 12:13:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 12:13:44 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 12:13:45 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 12:13:47 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 12:13:48 [http-nio-8761-exec-27] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:13:48 [http-nio-8761-exec-27] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:13:48 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 12:13:48 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 12:13:50 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 12:13:50 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 12:14:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 12:14:43 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 12:14:44 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 12:14:46 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 12:14:47 [http-nio-8761-exec-28] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:14:47 [http-nio-8761-exec-28] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:14:47 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 12:14:47 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 12:14:49 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 12:14:49 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 12:15:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:16:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:16:50 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 12:16:50 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 12:16:51 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 12:16:53 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 12:16:54 [http-nio-8761-exec-23] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:16:54 [http-nio-8761-exec-23] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:16:54 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 12:16:54 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 12:17:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 12:17:19 [http-nio-8761-exec-30] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:17:19 [http-nio-8761-exec-30] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 12:17:19 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 12:17:19 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 12:18:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 12:19:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 12:20:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 12:21:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 12:22:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 12:23:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 12:24:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 12:25:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 12:26:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 12:27:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 12:27:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 12:28:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 12:29:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 12:30:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 12:31:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 12:32:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 12:33:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 12:34:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 12:35:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 12:36:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 12:37:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:38:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 12:39:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 12:40:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 12:41:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 12:42:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 12:42:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 12:43:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 12:44:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 56ms
+2024-07-24 12:45:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 12:46:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 12:47:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 16ms
+2024-07-24 12:48:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 18ms
+2024-07-24 12:49:07 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 12:50:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 12:51:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 12:52:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 12:53:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 12:54:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 12:55:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 12:56:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 12:57:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 12:57:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 12:58:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 12:59:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 13:00:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 13:01:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 19ms
+2024-07-24 13:02:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 13:03:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 13:04:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 13:05:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 13:06:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 13:07:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 16ms
+2024-07-24 13:08:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 13:09:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 13:10:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 13:11:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 13:12:03 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 13:12:08 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 13:48:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2130119ms
+2024-07-24 13:49:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 13:50:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 13:51:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 13:52:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 13:53:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 34ms
+2024-07-24 13:54:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 144ms
+2024-07-24 13:55:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 144ms
+2024-07-24 13:56:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 145ms
+2024-07-24 13:57:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 156ms
+2024-07-24 13:58:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 119ms
+2024-07-24 13:59:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 14:00:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 14:01:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 14:02:33 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 14:02:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 14:03:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:04:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:05:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:06:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 14:07:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 14:08:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 14:09:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 14:10:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 14:11:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:12:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:13:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 14:14:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:15:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:16:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:17:33 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 14:17:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:18:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 23ms
+2024-07-24 14:19:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 14:20:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 14:21:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 14:22:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 14:22:51 [http-nio-8761-exec-33] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 14:22:51 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 14:22:51 [http-nio-8761-exec-31] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 14:22:51 [http-nio-8761-exec-31] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=true)
+2024-07-24 14:22:52 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 14:22:53 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 14:22:54 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 14:22:54 [http-nio-8761-exec-33] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 with status DOWN (replication=false)
+2024-07-24 14:22:54 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 with status DOWN (replication=false)
+2024-07-24 14:22:54 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=false)
+2024-07-24 14:22:54 [http-nio-8761-exec-24] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=false)
+2024-07-24 14:22:55 [http-nio-8761-exec-31] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=false)
+2024-07-24 14:22:55 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 14:22:55 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 with status DOWN (replication=true)
+2024-07-24 14:22:55 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 with status DOWN (replication=true)
+2024-07-24 14:22:55 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=true)
+2024-07-24 14:22:55 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=true)
+2024-07-24 14:22:55 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=true)
+2024-07-24 14:22:57 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054 with status DOWN (replication=false)
+2024-07-24 14:22:57 [http-nio-8761-exec-32] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 14:22:57 [http-nio-8761-exec-30] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 (replication=false)
+2024-07-24 14:22:58 [http-nio-8761-exec-29] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054 with status DOWN (replication=true)
+2024-07-24 14:22:58 [http-nio-8761-exec-29] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 14:22:58 [http-nio-8761-exec-29] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 14:22:58 [http-nio-8761-exec-29] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064
+2024-07-24 14:22:58 [http-nio-8761-exec-29] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064:Cancel@localhost failed with response code 404
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064:Cancel@localhost: missing entry.
+2024-07-24 14:22:58 [http-nio-8761-exec-22] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 (replication=false)
+2024-07-24 14:22:58 [http-nio-8761-exec-33] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 (replication=false)
+2024-07-24 14:22:58 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 (replication=false)
+2024-07-24 14:22:58 [http-nio-8761-exec-19] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=false)
+2024-07-24 14:22:58 [http-nio-8761-exec-28] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 14:22:58 [http-nio-8761-exec-28] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 14:22:58 [http-nio-8761-exec-28] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074
+2024-07-24 14:22:58 [http-nio-8761-exec-28] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074
+2024-07-24 14:22:58 [http-nio-8761-exec-28] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 14:22:58 [http-nio-8761-exec-28] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 14:22:58 [http-nio-8761-exec-28] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 14:22:58 [http-nio-8761-exec-28] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost failed with response code 404
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost: missing entry.
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074:Cancel@localhost failed with response code 404
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074:Cancel@localhost: missing entry.
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost failed with response code 404
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost: missing entry.
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost failed with response code 404
+2024-07-24 14:22:58 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073:Cancel@localhost: missing entry.
+2024-07-24 14:23:00 [http-nio-8761-exec-27] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054 (replication=false)
+2024-07-24 14:23:01 [http-nio-8761-exec-19] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054
+2024-07-24 14:23:01 [http-nio-8761-exec-19] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054
+2024-07-24 14:23:01 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054:Cancel@localhost failed with response code 404
+2024-07-24 14:23:01 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054:Cancel@localhost: missing entry.
+2024-07-24 14:23:02 [http-nio-8761-exec-28] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8084 with status DOWN (replication=false)
+2024-07-24 14:23:02 [http-nio-8761-exec-25] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8084 with status DOWN (replication=true)
+2024-07-24 14:23:03 [RMI TCP Connection(608)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application EUREKA-SERVICE with eureka with status DOWN
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8761"]
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Shutting down Eureka Server..
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shutting down ...
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-07-24 14:23:04 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl -
+				Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shut down
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Eureka Service is now shutdown...
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shutting down ...
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shut down
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-24 14:23:04 [RMI TCP Connection(608)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2024-07-24 14:23:30 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Starting EurekaServiceApplication using Java 22.0.1 with PID 26000 (C:\Applications_Projects\CaseStudy\Eureka-service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Eureka-service)
+2024-07-24 14:23:30 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-24 14:23:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-24 14:23:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-24 14:23:45 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=473f3c45-da48-39d3-acf5-18b0aad0b02c
+2024-07-24 14:23:45 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-24 14:23:45 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-24 14:23:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8761 (http)
+2024-07-24 14:23:50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8761"]
+2024-07-24 14:23:50 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-24 14:23:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-24 14:23:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-24 14:23:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 20255 ms
+2024-07-24 14:24:03 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-24 14:24:03 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-24 14:24:06 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-24 14:24:06 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-24 14:24:20 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-24 14:24:21 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-24 14:24:21 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-24 14:24:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-24 14:24:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Client configured to neither register nor query for data.
+2024-07-24 14:24:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721811261864 with initial instances count: 0
+2024-07-24 14:24:22 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -
+				Initializing ...
+2024-07-24 14:24:22 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -
+				Adding new peer nodes [http://localhost:8761/eureka/]
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -
+				Replica node URL:  http://localhost:8761/eureka/
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Finished initializing remote region registries. All known remote regions: []
+2024-07-24 14:24:23 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -
+				Initialized
+2024-07-24 14:24:24 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 1 endpoint beneath base path '/actuator'
+2024-07-24 14:24:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application EUREKA-SERVICE with eureka with status UP
+2024-07-24 14:24:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8761"]
+2024-07-24 14:24:24 [Thread-13] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				isAws returned false
+2024-07-24 14:24:24 [Thread-13] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Initialized server context
+2024-07-24 14:24:24 [Thread-13] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Got 1 instances from neighboring DS node
+2024-07-24 14:24:24 [Thread-13] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Renew threshold is: 1
+2024-07-24 14:24:24 [Thread-13] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Changing status to UP
+2024-07-24 14:24:24 [Thread-13] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -
+				Started Eureka Server
+2024-07-24 14:24:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8761 (http) with context path '/'
+2024-07-24 14:24:25 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8761
+2024-07-24 14:24:25 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Started EurekaServiceApplication in 62.204 seconds (process running for 72.757)
+2024-07-24 14:24:25 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Eureka Service Application started successfully.
+2024-07-24 14:24:25 [http-nio-8761-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-24 14:24:25 [http-nio-8761-exec-3] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-24 14:24:25 [http-nio-8761-exec-3] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3 ms
+2024-07-24 14:24:26 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-24 14:24:27 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-24 14:24:35 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083
+2024-07-24 14:24:35 [http-nio-8761-exec-7] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083
+2024-07-24 14:24:35 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status UP (replication=false)
+2024-07-24 14:24:35 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status UP (replication=false)
+2024-07-24 14:24:35 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status UP (replication=true)
+2024-07-24 14:24:36 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 with status UP (replication=false)
+2024-07-24 14:24:37 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8084 with status UP (replication=false)
+2024-07-24 14:24:37 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 with status UP (replication=true)
+2024-07-24 14:24:37 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8084 with status UP (replication=true)
+2024-07-24 14:24:37 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=false)
+2024-07-24 14:24:38 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status UP (replication=true)
+2024-07-24 14:24:38 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=false)
+2024-07-24 14:24:39 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status UP (replication=true)
+2024-07-24 14:24:40 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054
+2024-07-24 14:24:40 [http-nio-8761-exec-9] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054
+2024-07-24 14:24:41 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054 with status UP (replication=false)
+2024-07-24 14:24:41 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8054 with status UP (replication=true)
+2024-07-24 14:24:43 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8062 with status UP (replication=false)
+2024-07-24 14:24:44 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8062 with status UP (replication=true)
+2024-07-24 14:24:45 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 14:24:45 [http-nio-8761-exec-5] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 14:24:45 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=false)
+2024-07-24 14:24:45 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=false)
+2024-07-24 14:24:46 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status UP (replication=true)
+2024-07-24 14:24:46 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8057 with status UP (replication=false)
+2024-07-24 14:24:46 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8067 with status UP (replication=false)
+2024-07-24 14:24:46 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8057 with status UP (replication=true)
+2024-07-24 14:24:46 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8067 with status UP (replication=true)
+2024-07-24 14:24:47 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status UP (replication=false)
+2024-07-24 14:24:48 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status UP (replication=true)
+2024-07-24 14:24:48 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance THEATER-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8071 with status UP (replication=false)
+2024-07-24 14:24:49 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance THEATER-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8071 with status UP (replication=true)
+2024-07-24 14:24:49 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8072 with status UP (replication=false)
+2024-07-24 14:24:49 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8052 with status UP (replication=false)
+2024-07-24 14:24:49 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8072 with status UP (replication=true)
+2024-07-24 14:24:49 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8052 with status UP (replication=true)
+2024-07-24 14:24:50 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 14:24:50 [http-nio-8761-exec-5] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-24 14:24:50 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-24 14:24:50 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-24 14:24:51 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: THEATER-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8061
+2024-07-24 14:24:51 [http-nio-8761-exec-4] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): THEATER-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8061
+2024-07-24 14:24:51 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance THEATER-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8061 with status UP (replication=false)
+2024-07-24 14:24:51 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance THEATER-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8061 with status UP (replication=true)
+2024-07-24 14:24:52 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064
+2024-07-24 14:24:52 [http-nio-8761-exec-2] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064
+2024-07-24 14:24:52 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 with status UP (replication=false)
+2024-07-24 14:24:53 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 with status UP (replication=true)
+2024-07-24 14:25:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:26:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:27:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:28:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:29:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 14:30:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 14:31:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 14:32:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 14:33:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 14:34:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 14:35:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 14:36:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 14:37:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 14:38:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 14:39:23 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 14:39:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 14:40:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 14:41:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:42:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 14:43:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:44:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 14:45:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 14:46:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 14:47:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 14:48:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 14:49:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 14:50:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 14:51:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 14:52:24 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 14:53:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 14:54:23 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 14:54:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 14:55:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 14:56:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 14:57:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 14:58:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 14:59:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:00:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 15:01:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 15:02:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 15:03:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 15:04:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:05:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:06:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 15:07:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 15:08:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 15:09:23 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 15:09:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 15:10:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 15:11:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:12:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 15:13:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 15:14:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 15:15:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 15:16:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:17:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:18:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:19:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 15:20:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:21:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:22:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 15:23:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:24:23 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 15:24:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:25:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 15:26:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:27:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 15:28:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 15:29:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 15:30:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 15:31:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:32:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 15:33:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 15:34:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 15:35:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 15:36:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 15:37:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 15:38:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 15:39:23 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 15:39:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 15:40:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 15:41:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 15:42:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 15:43:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 15:44:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 15:45:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 15:46:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:47:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 15:48:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 15:49:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 15:50:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 15:51:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 15:52:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:53:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 15:54:23 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 15:54:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 15:55:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 15:56:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 15:57:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 15:58:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 15:59:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 16:00:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 16:01:25 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 16:04:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 172762ms
+2024-07-24 16:05:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 16:06:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 16:07:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 16:08:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 16:09:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 16:10:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 29ms
+2024-07-24 16:11:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 16:11:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 45ms
+2024-07-24 16:12:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 45ms
+2024-07-24 16:13:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 53ms
+2024-07-24 16:14:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 41ms
+2024-07-24 16:15:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 30ms
+2024-07-24 16:16:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 16:17:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 16:18:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 16:19:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 16:20:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 16:21:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 16:22:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 16:23:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 16:24:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 16:25:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 16:26:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 16:26:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 16:27:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 16:28:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 16:29:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 16:30:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 16:31:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 16:32:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 16:33:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 16:34:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 16:35:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 16:36:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 16:37:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 16:38:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 16:39:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 16:40:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 18ms
+2024-07-24 16:41:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 16:41:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 16:42:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 16:43:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 16:44:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 16:45:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 16:46:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 16:47:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 16:48:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 16:49:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 16:50:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 16:51:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 16:52:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 16:53:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 16:54:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 16:55:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 16:56:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 16:56:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 16:57:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 16:58:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 16:59:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 17ms
+2024-07-24 17:00:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 17:01:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 17:02:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 15ms
+2024-07-24 17:03:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 17:04:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 17:05:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 17:06:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 17:07:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 17:08:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 17:09:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 17:10:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 17:11:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 17:11:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 17:12:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 17:13:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 17:14:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 17:15:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 17:16:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 17:17:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 5ms
+2024-07-24 17:18:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 17:19:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 17:20:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-24 17:21:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 17:22:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 17:23:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 17:24:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 17:25:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 17:26:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 17:26:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 17:27:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 17:28:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 17:29:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 17:30:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 17:31:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-24 17:32:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 17:33:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 7ms
+2024-07-24 17:34:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 17:35:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 17:36:56 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 23:34:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 21439614ms
+2024-07-24 23:35:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 23:36:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 23:37:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 3ms
+2024-07-24 23:38:52 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 23:38:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 23:39:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 23:40:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 23:41:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 14ms
+2024-07-24 23:42:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 23:43:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-24 23:44:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 16ms
+2024-07-24 23:45:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 16ms
+2024-07-24 23:46:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-24 23:47:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-24 23:48:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 23:49:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-24 23:50:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-24 23:51:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-24 23:52:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-24 23:53:53 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 32
+2024-07-24 23:53:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 4ms
+2024-07-24 23:54:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 23:55:42 [http-nio-8761-exec-17] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status DOWN (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-16] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-16] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 with status DOWN (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-11] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-13] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 (replication=false)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status DOWN (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 with status DOWN (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 with status DOWN (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 with status DOWN (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 with status DOWN (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=true)
+2024-07-24 23:55:42 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 (replication=true)
+2024-07-24 23:55:43 [http-nio-8761-exec-20] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 (replication=true)
+2024-07-24 23:55:45 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 (replication=false)
+2024-07-24 23:55:45 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 (replication=false)
+2024-07-24 23:55:46 [http-nio-8761-exec-13] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 23:55:46 [http-nio-8761-exec-13] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053
+2024-07-24 23:55:46 [http-nio-8761-exec-13] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 23:55:46 [http-nio-8761-exec-13] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063
+2024-07-24 23:55:46 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost failed with response code 404
+2024-07-24 23:55:46 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053:Cancel@localhost: missing entry.
+2024-07-24 23:55:46 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost failed with response code 404
+2024-07-24 23:55:46 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063:Cancel@localhost: missing entry.
+2024-07-24 23:55:47 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064 (replication=false)
+2024-07-24 23:55:47 [http-nio-8761-exec-13] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064
+2024-07-24 23:55:47 [http-nio-8761-exec-13] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064
+2024-07-24 23:55:47 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064:Cancel@localhost failed with response code 404
+2024-07-24 23:55:47 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8064:Cancel@localhost: missing entry.
+2024-07-24 23:55:55 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 10ms
+2024-07-24 23:56:02 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 with status DOWN (replication=false)
+2024-07-24 23:56:03 [http-nio-8761-exec-13] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8074 with status DOWN (replication=true)
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application EUREKA-SERVICE with eureka with status DOWN
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8761"]
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Shutting down Eureka Server..
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shutting down ...
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shut down
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Eureka Service is now shutdown...
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shutting down ...
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shut down
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-24 23:56:03 [RMI TCP Connection(226)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient

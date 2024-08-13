@@ -1,0 +1,32 @@
+2024-07-23 11:37:36 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 9148 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-23 11:37:36 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-23 11:37:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-23 11:37:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-23 11:37:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-23 11:37:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-23 11:37:52 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-23 11:37:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-23 11:37:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-23 11:37:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 16257 ms
+2024-07-23 11:38:00 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-23 11:38:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-23 11:38:06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-23 11:38:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-23 11:38:06 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 34.295 seconds (process running for 40.954)
+2024-07-23 11:38:06 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.

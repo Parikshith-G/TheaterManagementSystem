@@ -1,0 +1,256 @@
+2024-08-05 12:28:05 [main] INFO  c.t.controller.MovieControllerTest -
+				Starting MovieControllerTest using Java 22.0.1 with PID 10984 (started by parikg in C:\Applications_Projects\CaseStudy\Theater-service)
+2024-08-05 12:28:05 [main] INFO  c.t.controller.MovieControllerTest -
+				No active profile set, falling back to 1 default profile: "default"
+2024-08-05 12:28:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 2 ms
+2024-08-05 12:28:08 [main] INFO  c.t.controller.MovieControllerTest -
+				Started MovieControllerTest in 4.008 seconds (process running for 12.177)
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Getting movie by ID: 1
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Retrieved movie: MovieDto[id=1, title=Movie Title, description=Movie Description, genre=Genre, duration=120]
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Deleting movie with ID: 1
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Deleted movie with ID: 1
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Updating movie with ID: 1
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Updated movie: MovieDto[id=1, title=Movie Title, description=Movie Description, genre=Genre, duration=120]
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Creating movie: MovieDto[id=1, title=Movie Title, description=Movie Description, genre=Genre, duration=120]
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Created movie: MovieDto[id=1, title=Movie Title, description=Movie Description, genre=Genre, duration=120]
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Getting all movies
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.MovieController -
+				Retrieved 1 movies
+2024-08-05 12:28:08 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:08 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
+				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "invalid": not a valid `java.lang.Long` value]
+2024-08-05 12:28:08 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.ShowController -
+				Adding movie with ID: 1 to show with ID: 1
+2024-08-05 12:28:08 [main] INFO  c.theater.controller.ShowController -
+				Added movie: MovieDto[id=1, title=Inception, description=A mind-bending thriller, genre=Sci-Fi, duration=148]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Fetching all shows
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Fetched 2 shows
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Updating show with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Updated show: ShowDto[id=1, movieId=1, roomId=1, startTime=2024-08-05T12:28:09.081716200, endTime=2024-08-05T14:28:09.081716200, price=10.0]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Creating show: ShowDto[id=1, movieId=1, roomId=1, startTime=2024-08-05T12:28:09.122720, endTime=2024-08-05T14:28:09.122720, price=10.0]
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Created show: ShowDto[id=1, movieId=1, roomId=1, startTime=2024-08-05T12:28:09.122720, endTime=2024-08-05T14:28:09.122720, price=10.0]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Adding movie with ID: 1 to show with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Added movie: null
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Fetching show with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Fetched show: ShowDto[id=1, movieId=1, roomId=1, startTime=2024-08-05T12:28:09.176256200, endTime=2024-08-05T14:28:09.176256200, price=10.0]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Deleting show with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.ShowController -
+				Deleted show with ID: 1
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Adding show with ID: 1 to movie with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Added show: ShowDto[id=1, movieId=1, roomId=1, startTime=2024-08-05T12:28:09.282475400, endTime=2024-08-05T12:28:09.282475400, price=9.8]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Getting all rooms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Retrieved 1 rooms
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Updating room with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Updated room: RoomDto[id=1, theaterId=1, name=Room 1, capacity=100, availableSeats=100, showIds=[], seatStatuses=[]]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Converting RoomDto to Room: RoomDto[id=1, theaterId=1, name=Room 1, capacity=100, availableSeats=100, showIds=[], seatStatuses=[]]
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Converted Room: Room(id=null, theater=null, name=null, capacity=0, availableSeats=0, seats=[], shows=[])
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Creating room: RoomDto[id=1, theaterId=1, name=Room 1, capacity=100, availableSeats=100, showIds=[], seatStatuses=[]]
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Created room: RoomDto[id=1, theaterId=1, name=Room 1, capacity=100, availableSeats=100, showIds=[], seatStatuses=[]]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Deleting room with ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Deleted room with ID: 1
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Getting room by ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Retrieved room: RoomDto[id=1, theaterId=1, name=Room 1, capacity=100, availableSeats=100, showIds=[], seatStatuses=[]]
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Getting available seats for room ID: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Available seats for room ID 1: 50
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Finding seat by ID: 1
+2024-08-05 12:28:09 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Updating seat booked status for room ID: 1 and seat number: 1
+2024-08-05 12:28:09 [main] INFO  c.theater.controller.RoomController -
+				Updated seat booked status for room ID: 1 and seat number: 1: true
+2024-08-05 12:28:09 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.theater.controller.TheaterControllerTest]: TheaterControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-05 12:28:09 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.theater.TheaterServiceApplication for test class com.theater.controller.TheaterControllerTest
+2024-08-05 12:28:09 [main] INFO  o.s.b.d.r.RestartApplicationListener -
+				Restart disabled due to context in which it is running
+2024-08-05 12:28:09 [main] INFO  c.t.controller.TheaterControllerTest -
+				Starting TheaterControllerTest using Java 22.0.1 with PID 10984 (started by parikg in C:\Applications_Projects\CaseStudy\Theater-service)
+2024-08-05 12:28:09 [main] INFO  c.t.controller.TheaterControllerTest -
+				No active profile set, falling back to 1 default profile: "default"
+2024-08-05 12:28:09 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2024-08-05 12:28:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2024-08-05 12:28:10 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterControllerTest -
+				Started TheaterControllerTest in 0.443 seconds (process running for 13.685)
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Deleting theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Deleted theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Adding room with ID: 2 to theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Added room to theater: TheaterDto[id=1, name=Theater1, location=Description1, roomsIdx=[]]
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetching theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetching theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetched theater: TheaterDto[id=1, name=Theater1, location=Description1, roomsIdx=[]]
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetching all theaters
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetched 1 theaters
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Creating theater: TheaterDto[id=1, name=Theater1, location=null, roomsIdx=null]
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Created theater: TheaterDto[id=1, name=Theater1, location=Description1, roomsIdx=[]]
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Updating theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Updated theater: TheaterDto[id=1, name=Updated Theater, location=Updated Description, roomsIdx=[]]
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetching rooms for theater with ID: 1
+2024-08-05 12:28:10 [main] INFO  c.t.controller.TheaterController -
+				Fetched 1 rooms for theater with ID: 1

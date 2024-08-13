@@ -1,0 +1,129 @@
+2024-07-26 11:01:39 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 25940 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-26 11:01:39 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-26 11:01:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-26 11:01:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-26 11:01:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-26 11:01:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-26 11:01:45 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-26 11:01:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-26 11:01:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-26 11:01:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 6254 ms
+2024-07-26 11:01:47 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-26 11:01:48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-26 11:01:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-26 11:01:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-26 11:01:49 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 11.883 seconds (process running for 16.944)
+2024-07-26 11:01:49 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-26 11:05:48 [http-nio-8088-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-26 11:05:48 [http-nio-8088-exec-3] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-26 11:05:48 [http-nio-8088-exec-3] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3 ms
+2024-07-26 11:05:51 [http-nio-8088-exec-4] INFO  c.t.p.controller.RazorpayController -
+				Razorpay order created successfully. Order ID: order_Od9CbPyH1T7qcc
+2024-07-26 11:13:40 [http-nio-8088-exec-8] INFO  c.t.p.controller.RazorpayController -
+				Razorpay order created successfully. Order ID: order_Od9Kqufbs3yjvX
+2024-07-26 12:29:05 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 29204 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-26 12:29:05 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-26 12:29:05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-26 12:29:05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-26 12:29:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-26 12:29:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-26 12:29:12 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-26 12:29:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-26 12:29:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-26 12:29:12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 6548 ms
+2024-07-26 12:29:19 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-26 12:29:21 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-26 12:29:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-26 12:29:21 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-26 12:29:21 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-26 12:29:22 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2024-07-26 12:30:05 [RMI TCP Connection(97)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-26 12:30:06 [RMI TCP Connection(97)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2024-07-26 12:30:52 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 10712 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-26 12:30:52 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-26 12:30:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-26 12:30:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-26 12:30:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-26 12:30:54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-26 12:30:54 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-26 12:30:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-26 12:30:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-26 12:30:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1952 ms
+2024-07-26 12:30:55 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-26 12:30:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-26 12:30:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-26 12:30:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-26 12:30:56 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 4.059 seconds (process running for 5.993)
+2024-07-26 12:30:56 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-26 15:55:34 [RMI TCP Connection(127)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-26 15:55:34 [RMI TCP Connection(127)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]

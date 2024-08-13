@@ -1,0 +1,77 @@
+<div class="container">
+  <h2>Rooms</h2>
+  <button class="btn btn-primary" (click)="openCreateRoomModal()">
+    Create Room
+  </button>
+
+  <table class="table mt-3">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Theater</th>
+        <th>Capacity</th>
+        <th>Delete Room</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let room of rooms">
+        <td>{{ room.id }}</td>
+        <td>{{ room.name }}</td>
+        <td>{{ room.theaterId }}</td>
+        <td>{{ room.capacity }}</td>
+        <td (dblclick)="deleteRoom(room.id)">
+          <button class="btn btn-danger">Delete Room</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Create Room Modal -->
+  <ng-template #createRoomModal let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title">Create Room</h4>
+    </div>
+    <div class="modal-body">
+      <form (ngSubmit)="createRoom()">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            [(ngModel)]="newRoom.name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="theater">Theater</label>
+          <select
+            id="theater"
+            class="form-control"
+            [(ngModel)]="newRoom.theaterId"
+            name="theaterId"
+            required
+          >
+            <option *ngFor="let theater of theaters" [value]="theater.id">
+              {{ theater.name }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="capacity">Capacity</label>
+          <input
+            type="number"
+            id="capacity"
+            class="form-control"
+            [(ngModel)]="newRoom.capacity"
+            name="capacity"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+      </form>
+    </div>
+  </ng-template>
+</div>

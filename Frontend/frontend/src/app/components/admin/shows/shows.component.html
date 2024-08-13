@@ -1,0 +1,93 @@
+<div class="container mt-4">
+  <button class="btn btn-primary mb-3" (click)="open(content)">Add Show</button>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Movie</th>
+        <th>Room</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let show of shows">
+        <td>{{ show.id }}</td>
+        <td>{{ show.movieId }}</td>
+        <td>{{ show.roomId }}</td>
+        <td>{{ show.startTime | date : "short" }}</td>
+        <td>{{ show.endTime | date : "short" }}</td>
+        <td>{{ show.price }}</td>
+        <td>
+          <button
+            class="btn btn-danger btn-sm"
+            (dblclick)="deleteShow(show.id)"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h5 class="modal-title">Add Show</h5>
+  </div>
+  <div class="modal-body">
+    <form (ngSubmit)="addShow()">
+      <div class="form-group">
+        <label for="movie">Movie</label>
+        <select
+          id="movie"
+          class="form-control"
+          [(ngModel)]="newShow.movieId"
+          name="movieId"
+          (change)="calculateEndTime()"
+        >
+          <option *ngFor="let movie of movies" [value]="movie.id">
+            {{ movie.title }}
+          </option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="room">Room</label>
+        <select
+          id="room"
+          class="form-control"
+          [(ngModel)]="newShow.roomId"
+          name="roomId"
+        >
+          <option *ngFor="let room of rooms" [value]="room.id">
+            {{ room.name }}
+          </option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="startTime">Start Time</label>
+        <input
+          id="startTime"
+          type="datetime-local"
+          class="form-control"
+          [(ngModel)]="newShow.startTime"
+          name="startTime"
+          (change)="calculateEndTime()"
+        />
+      </div>
+      <div class="form-group">
+        <label for="price">Price</label>
+        <input
+          id="price"
+          type="number"
+          class="form-control"
+          [(ngModel)]="newShow.price"
+          name="price"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Add Show</button>
+    </form>
+  </div>
+</ng-template>

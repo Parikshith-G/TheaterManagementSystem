@@ -1,0 +1,104 @@
+2024-08-13 09:08:53 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 54680956ms
+2024-08-13 09:09:33 [http-nio-8761-exec-18] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0 with status DOWN (replication=false)
+2024-08-13 09:09:34 [http-nio-8761-exec-14] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0 with status DOWN (replication=true)
+2024-08-13 09:09:36 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0 (replication=false)
+2024-08-13 09:09:36 [http-nio-8761-exec-16] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0
+2024-08-13 09:09:36 [http-nio-8761-exec-16] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): BOOKING-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0
+2024-08-13 09:09:36 [http-nio-8761-exec-15] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0 with status UP (replication=false)
+2024-08-13 09:09:37 [http-nio-8761-exec-13] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:0 with status DOWN (replication=false)
+2024-08-13 09:09:37 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0 (replication=true)
+2024-08-13 09:09:37 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:0 with status UP (replication=true)
+2024-08-13 09:09:37 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:0 with status DOWN (replication=true)
+2024-08-13 09:09:40 [http-nio-8761-exec-18] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:0 (replication=false)
+2024-08-13 09:09:40 [http-nio-8761-exec-17] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0 with status DOWN (replication=false)
+2024-08-13 09:09:40 [http-nio-8761-exec-16] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:0
+2024-08-13 09:09:40 [http-nio-8761-exec-16] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): EMAIL-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:Email-service:0
+2024-08-13 09:09:40 [http-nio-8761-exec-16] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0 with status DOWN (replication=true)
+2024-08-13 09:09:40 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:0:Cancel@localhost failed with response code 404
+2024-08-13 09:09:40 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:0:Cancel@localhost: missing entry.
+2024-08-13 09:09:43 [http-nio-8761-exec-15] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0 (replication=false)
+2024-08-13 09:09:44 [http-nio-8761-exec-11] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0
+2024-08-13 09:09:44 [http-nio-8761-exec-11] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0
+2024-08-13 09:09:44 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0:Cancel@localhost failed with response code 404
+2024-08-13 09:09:44 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:0:Cancel@localhost: missing entry.
+2024-08-13 09:09:44 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-08-13 09:09:44 [http-nio-8761-exec-18] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-08-13 09:09:47 [http-nio-8761-exec-16] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-08-13 09:09:47 [http-nio-8761-exec-15] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-08-13 09:09:47 [http-nio-8761-exec-15] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-08-13 09:09:47 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-08-13 09:09:47 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application EUREKA-SERVICE with eureka with status DOWN
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8761"]
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Shutting down Eureka Server..
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shutting down ...
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor -
+				Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-08-13 09:09:47 [Eureka-Jersey3Client-Conn-Cleaner2] ERROR c.n.d.s.t.j.EurekaJersey3ClientImpl -
+				Cannot clean connections
+java.lang.IllegalStateException: Client instance has been closed.
+	at org.glassfish.jersey.internal.guava.Preconditions.checkState(Preconditions.java:169)
+	at org.glassfish.jersey.client.JerseyClient.checkNotClosed(JerseyClient.java:248)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:363)
+	at org.glassfish.jersey.client.JerseyClient.getConfiguration(JerseyClient.java:54)
+	at com.netflix.discovery.shared.transport.jersey3.EurekaJersey3ClientImpl$ConnectionCleanerTask.run(EurekaJersey3ClientImpl.java:347)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shut down
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Eureka Service is now shutdown...
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shutting down ...
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -
+				Shut down
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-08-13 09:09:47 [RMI TCP Connection(101)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient

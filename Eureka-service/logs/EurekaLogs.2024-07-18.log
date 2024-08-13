@@ -1,0 +1,950 @@
+2024-07-18 23:12:45 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Starting EurekaServiceApplication using Java 22.0.1 with PID 23128 (C:\Applications_Projects\CaseStudy\Eureka-service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Eureka-service)
+2024-07-18 23:12:45 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:12:46 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=473f3c45-da48-39d3-acf5-18b0aad0b02c
+2024-07-18 23:12:46 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-18 23:12:46 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-18 23:12:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8761 (http)
+2024-07-18 23:12:46 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:12:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-18 23:12:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:12:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 891 ms
+2024-07-18 23:12:46 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-18 23:12:46 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-18 23:12:46 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-18 23:12:46 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-18 23:12:47 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:12:47 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-18 23:12:47 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-18 23:12:47 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-18 23:12:47 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Client configured to neither register nor query for data.
+2024-07-18 23:12:47 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721324567125 with initial instances count: 0
+2024-07-18 23:12:47 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -
+				Initializing ...
+2024-07-18 23:12:47 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -
+				Adding new peer nodes [http://localhost:8761/eureka/]
+2024-07-18 23:12:47 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-18 23:12:47 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-18 23:12:47 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-18 23:12:47 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-18 23:12:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap': Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+2024-07-18 23:12:47 [restartedMain] ERROR c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Cannot shutdown ReplicaAwareInstanceRegistry
+java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.cluster.PeerEurekaNodes.shutdown()" because "this.peerEurekaNodes" is null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:178)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:316)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:249)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1186)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:637)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.eureka.EurekaServiceApplication.main(EurekaServiceApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-07-18 23:12:47 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter -
+				Custom destroy method 'shutdown' on bean with name 'peerAwareInstanceRegistry' propagated an exception: java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.registry.ResponseCache.stop()" because "this.responseCache" is null
+2024-07-18 23:12:47 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-18 23:12:47 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2024-07-18 23:12:47 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-07-18 23:12:47 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-18 23:12:47 [restartedMain] ERROR o.s.boot.SpringApplication -
+				Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap': Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.eureka.EurekaServiceApplication.main(EurekaServiceApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1780)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@53830ae6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@712244c7[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda/0x00000000388158e0@2a56993a]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@34855381[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:105)
+	at com.netflix.eureka.DefaultEurekaServerContext.initialize(DefaultEurekaServerContext.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 49 common frames omitted
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@53830ae6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@712244c7[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda/0x00000000388158e0@2a56993a]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@34855381[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.scheduleWithFixedDelay(ScheduledThreadPoolExecutor.java:680)
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:409)
+	at com.netflix.servo.monitor.StatsMonitor.lambda$new$0(StatsMonitor.java:365)
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:377)
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:70)
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:47)
+	at com.netflix.eureka.util.batcher.AcceptorExecutor.<init>(AcceptorExecutor.java:116)
+	at com.netflix.eureka.util.batcher.TaskDispatchers.createBatchingTaskDispatcher(TaskDispatchers.java:43)
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:104)
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:87)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$RefreshablePeerEurekaNodes.createPeerEurekaNode(EurekaServerAutoConfiguration.java:455)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes(PeerEurekaNodes.java:188)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:86)
+	... 55 common frames omitted
+2024-07-18 23:13:19 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Starting Eureka Service Application...
+2024-07-18 23:13:19 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Starting EurekaServiceApplication using Java 22.0.1 with PID 23128 (C:\Applications_Projects\CaseStudy\Eureka-service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Eureka-service)
+2024-07-18 23:13:19 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:13:19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=473f3c45-da48-39d3-acf5-18b0aad0b02c
+2024-07-18 23:13:19 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-18 23:13:20 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-18 23:13:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8761 (http)
+2024-07-18 23:13:20 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:13:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-18 23:13:20 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:13:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 775 ms
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-18 23:13:20 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:13:20 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-18 23:13:20 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-18 23:13:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-18 23:13:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Client configured to neither register nor query for data.
+2024-07-18 23:13:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721324600787 with initial instances count: 0
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -
+				Initializing ...
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -
+				Adding new peer nodes [http://localhost:8761/eureka/]
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-18 23:13:20 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-18 23:13:20 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap': Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+2024-07-18 23:13:20 [restartedMain] ERROR c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Cannot shutdown ReplicaAwareInstanceRegistry
+java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.cluster.PeerEurekaNodes.shutdown()" because "this.peerEurekaNodes" is null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:178)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:316)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:249)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1186)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:637)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.eureka.EurekaServiceApplication.main(EurekaServiceApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-07-18 23:13:20 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter -
+				Custom destroy method 'shutdown' on bean with name 'peerAwareInstanceRegistry' propagated an exception: java.lang.NullPointerException: Cannot invoke "com.netflix.eureka.registry.ResponseCache.stop()" because "this.responseCache" is null
+2024-07-18 23:13:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-18 23:13:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2024-07-18 23:13:20 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-07-18 23:13:20 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-18 23:13:20 [restartedMain] ERROR o.s.boot.SpringApplication -
+				Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap': Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.eureka.EurekaServiceApplication.main(EurekaServiceApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1780)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@2a12032a[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6a9296f[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda/0x00000000388158e0@7314a34]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@34855381[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12]
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:105)
+	at com.netflix.eureka.DefaultEurekaServerContext.initialize(DefaultEurekaServerContext.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 49 common frames omitted
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@2a12032a[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6a9296f[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda/0x00000000388158e0@7314a34]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@34855381[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.scheduleWithFixedDelay(ScheduledThreadPoolExecutor.java:680)
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:409)
+	at com.netflix.servo.monitor.StatsMonitor.lambda$new$0(StatsMonitor.java:365)
+	at com.netflix.servo.monitor.StatsMonitor.startComputingStats(StatsMonitor.java:377)
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:70)
+	at com.netflix.servo.monitor.StatsTimer.<init>(StatsTimer.java:47)
+	at com.netflix.eureka.util.batcher.AcceptorExecutor.<init>(AcceptorExecutor.java:116)
+	at com.netflix.eureka.util.batcher.TaskDispatchers.createBatchingTaskDispatcher(TaskDispatchers.java:43)
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:104)
+	at com.netflix.eureka.cluster.PeerEurekaNode.<init>(PeerEurekaNode.java:87)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$RefreshablePeerEurekaNodes.createPeerEurekaNode(EurekaServerAutoConfiguration.java:455)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes(PeerEurekaNodes.java:188)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:86)
+	... 55 common frames omitted
+2024-07-18 23:15:23 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Starting EurekaServiceApplication using Java 22.0.1 with PID 4704 (C:\Applications_Projects\CaseStudy\Eureka-service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Eureka-service)
+2024-07-18 23:15:23 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:15:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-18 23:15:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-18 23:15:27 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=473f3c45-da48-39d3-acf5-18b0aad0b02c
+2024-07-18 23:15:27 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-18 23:15:27 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-18 23:15:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8761 (http)
+2024-07-18 23:15:28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8761"]
+2024-07-18 23:15:28 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:15:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-18 23:15:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:15:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 5843 ms
+2024-07-18 23:15:33 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-18 23:15:33 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-18 23:15:33 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-18 23:15:33 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-18 23:15:36 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:15:37 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-18 23:15:37 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-18 23:15:37 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-18 23:15:37 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Client configured to neither register nor query for data.
+2024-07-18 23:15:37 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721324737274 with initial instances count: 0
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -
+				Initializing ...
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -
+				Adding new peer nodes [http://localhost:8761/eureka/]
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -
+				Replica node URL:  http://localhost:8761/eureka/
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Finished initializing remote region registries. All known remote regions: []
+2024-07-18 23:15:37 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -
+				Initialized
+2024-07-18 23:15:37 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 1 endpoint beneath base path '/actuator'
+2024-07-18 23:15:38 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application EUREKA-SERVICE with eureka with status UP
+2024-07-18 23:15:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8761"]
+2024-07-18 23:15:38 [Thread-13] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				isAws returned false
+2024-07-18 23:15:38 [Thread-13] INFO  o.s.c.n.e.s.EurekaServerBootstrap -
+				Initialized server context
+2024-07-18 23:15:38 [Thread-13] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Got 1 instances from neighboring DS node
+2024-07-18 23:15:38 [Thread-13] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Renew threshold is: 1
+2024-07-18 23:15:38 [Thread-13] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Changing status to UP
+2024-07-18 23:15:38 [Thread-13] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -
+				Started Eureka Server
+2024-07-18 23:15:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8761 (http) with context path '/'
+2024-07-18 23:15:38 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8761
+2024-07-18 23:15:38 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Started EurekaServiceApplication in 16.615 seconds (process running for 18.748)
+2024-07-18 23:15:38 [restartedMain] INFO  com.eureka.EurekaServiceApplication -
+				Eureka Service Application started successfully.
+2024-07-18 23:15:39 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-18 23:15:39 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-18 23:15:39 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 4 ms
+2024-07-18 23:15:42 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-18 23:15:43 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-18 23:15:45 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8084 with status UP (replication=false)
+2024-07-18 23:15:46 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance EMAIL-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Email-service:8084 with status UP (replication=true)
+2024-07-18 23:15:47 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status UP (replication=false)
+2024-07-18 23:15:48 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:15:48 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 with status UP (replication=true)
+2024-07-18 23:15:48 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:15:48 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance THEATER-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8081 with status UP (replication=false)
+2024-07-18 23:15:49 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance THEATER-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Theater-service:8081 with status UP (replication=true)
+2024-07-18 23:16:05 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: lease doesn't exist, registering resource: OTP-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087
+2024-07-18 23:16:05 [http-nio-8761-exec-1] WARN  c.n.e.resources.InstanceResource -
+				Not Found (Renew): OTP-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087
+2024-07-18 23:16:05 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status UP (replication=false)
+2024-07-18 23:16:06 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status UP (replication=true)
+2024-07-18 23:16:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:17:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-18 23:18:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-18 23:19:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-18 23:20:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-18 23:20:45 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status DOWN (replication=false)
+2024-07-18 23:20:46 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status DOWN (replication=true)
+2024-07-18 23:20:48 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 (replication=false)
+2024-07-18 23:20:49 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087
+2024-07-18 23:20:49 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): OTP-SERVICE - LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087
+2024-07-18 23:20:49 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087:Cancel@localhost failed with response code 404
+2024-07-18 23:20:49 [TaskBatchingWorker-target_localhost-11] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087:Cancel@localhost: missing entry.
+2024-07-18 23:20:50 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status UP (replication=false)
+2024-07-18 23:20:50 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance OTP-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:OTP-Service:8087 with status UP (replication=true)
+2024-07-18 23:21:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:21:43 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=false)
+2024-07-18 23:21:44 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status DOWN (replication=true)
+2024-07-18 23:21:46 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 (replication=false)
+2024-07-18 23:21:47 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-18 23:21:47 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): APIGATEWAY - LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086
+2024-07-18 23:21:47 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost failed with response code 404
+2024-07-18 23:21:47 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086:Cancel@localhost: missing entry.
+2024-07-18 23:21:48 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=false)
+2024-07-18 23:21:48 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance APIGATEWAY/LIN-PF1JSCZH.corp.capgemini.com:ApiGateway:8086 with status UP (replication=true)
+2024-07-18 23:22:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-18 23:23:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-18 23:24:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:25:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-18 23:25:49 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:25:50 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:25:52 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:25:53 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:25:53 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:25:53 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:25:53 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:25:54 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:25:55 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:26:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:27:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-18 23:28:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:29:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-18 23:30:37 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 11
+2024-07-18 23:30:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 33ms
+2024-07-18 23:31:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-18 23:32:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:33:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 12ms
+2024-07-18 23:34:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 18ms
+2024-07-18 23:35:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-18 23:36:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 2ms
+2024-07-18 23:37:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 6ms
+2024-07-18 23:38:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 11ms
+2024-07-18 23:39:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:40:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-18 23:41:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 13ms
+2024-07-18 23:42:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 8ms
+2024-07-18 23:43:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 9ms
+2024-07-18 23:44:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-18 23:45:37 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -
+				Current renewal threshold is : 11
+2024-07-18 23:45:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:46:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:47:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:48:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:49:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:50:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:50:40 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:50:40 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:50:43 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:50:43 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:50:43 [http-nio-8761-exec-1] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:50:43 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:50:43 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:50:45 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:50:45 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:50:52 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:50:53 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:50:55 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:50:56 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:50:56 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:50:56 [TaskBatchingWorker-target_localhost-5] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:50:56 [TaskBatchingWorker-target_localhost-5] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:50:57 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:50:57 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:50:58 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:50:59 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:51:01 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:51:02 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:51:02 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:51:02 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:51:02 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:51:02 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:51:03 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:51:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:52:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:52:38 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:52:39 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:52:41 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:52:42 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:52:42 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:52:42 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:52:42 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:52:43 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:52:43 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:53:05 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:53:06 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:53:08 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:53:09 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:53:09 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:53:09 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:53:09 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:53:09 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:53:10 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:53:28 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:53:28 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:53:31 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:53:31 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:53:31 [http-nio-8761-exec-7] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:53:31 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:53:31 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:53:33 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:53:33 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:53:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 1ms
+2024-07-18 23:53:51 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:53:51 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:53:54 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:53:54 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:53:54 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:53:54 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:53:54 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:53:56 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:53:56 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:53:59 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:54:00 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:54:02 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:54:03 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:54:03 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:54:03 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:54:03 [TaskBatchingWorker-target_localhost-9] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:54:04 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:54:04 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:54:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:54:55 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:54:55 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:54:58 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:54:58 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:54:58 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:54:58 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:54:58 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:54:59 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:55:00 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:55:35 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:55:36 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:55:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:55:38 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:55:39 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:55:39 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:55:39 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:55:39 [TaskBatchingWorker-target_localhost-13] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:55:40 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:55:41 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:55:42 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:55:43 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:55:45 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:55:46 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:55:46 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:55:46 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:55:46 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:55:47 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:55:47 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:56:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:57:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:57:41 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:57:42 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:57:44 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:57:45 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:57:45 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:57:45 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:57:45 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:57:46 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:57:46 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:57:47 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:57:48 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:57:50 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:57:51 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:57:51 [http-nio-8761-exec-1] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:57:51 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:57:51 [TaskBatchingWorker-target_localhost-10] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:57:52 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:57:52 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:57:54 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:57:54 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:57:57 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:57:57 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:57:57 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:57:57 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:57:57 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:57:58 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:57:59 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:58:10 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:58:11 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:58:13 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:58:14 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:14 [http-nio-8761-exec-1] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:14 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:58:14 [TaskBatchingWorker-target_localhost-14] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:58:14 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:58:15 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:58:27 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:58:28 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:58:30 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:58:31 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:31 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:31 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:58:31 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:58:32 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:58:32 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:58:33 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:58:33 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:58:36 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:58:37 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:37 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:37 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:58:37 [TaskBatchingWorker-target_localhost-17] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:58:37 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:58:38 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:58:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms
+2024-07-18 23:58:39 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=false)
+2024-07-18 23:58:39 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status DOWN (replication=true)
+2024-07-18 23:58:42 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Cancelled instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 (replication=false)
+2024-07-18 23:58:42 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -
+				DS: Registry: cancel failed because Lease is not registered for: LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:42 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource -
+				Not Found (Cancel): LOGINREGISTRATIONSERVICE - LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082
+2024-07-18 23:58:42 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask -
+				The replication of task LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost failed with response code 404
+2024-07-18 23:58:42 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode -
+				LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082:Cancel@localhost: missing entry.
+2024-07-18 23:58:43 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=false)
+2024-07-18 23:58:44 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Registered instance LOGINREGISTRATIONSERVICE/LIN-PF1JSCZH.corp.capgemini.com:LoginRegistrationService:8082 with status UP (replication=true)
+2024-07-18 23:59:38 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -
+				Running the evict task with compensationTime 0ms

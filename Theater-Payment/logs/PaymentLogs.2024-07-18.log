@@ -1,0 +1,371 @@
+2024-07-18 17:22:06 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 17600 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 17:22:06 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 17:22:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 17:22:06 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 17:22:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 17:22:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 17:22:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 796 ms
+2024-07-18 17:22:07 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 17:22:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 17:22:07 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 1.403 seconds (process running for 2529.631)
+2024-07-18 17:22:07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 18:38:09 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-18 18:38:09 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-18 18:38:09 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2 ms
+2024-07-18 23:02:00 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-18 23:02:00 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 17600 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:02:00 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:02:00 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes\com\theater\payment\TheaterPaymentApplication.class]
+2024-07-18 23:02:00 [restartedMain] ERROR o.s.boot.SpringApplication -
+				Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes\com\theater\payment\TheaterPaymentApplication.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:510)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:351)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:277)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.theater.payment.TheaterPaymentApplication.main(TheaterPaymentApplication.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 0
+	at org.springframework.asm.ClassReader.readShort(ClassReader.java:3627)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:197)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:180)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:166)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:287)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:56)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:122)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:470)
+	... 23 common frames omitted
+2024-07-18 23:02:02 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 17600 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:02:02 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:02:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:02:02 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:02:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:02:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:02:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 494 ms
+2024-07-18 23:02:02 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:02:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:02:02 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.839 seconds (process running for 22925.894)
+2024-07-18 23:02:02 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:02:02 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:02:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-18 23:02:10 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 17600 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:02:10 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:02:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:02:10 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:02:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:02:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:02:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 259 ms
+2024-07-18 23:02:10 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:02:11 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:02:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:02:11 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.416 seconds (process running for 22933.993)
+2024-07-18 23:02:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:02:11 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:03:39 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-18 23:03:39 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 17600 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:03:39 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:03:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:03:39 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:03:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:03:39 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:03:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 455 ms
+2024-07-18 23:03:39 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:03:40 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:03:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:03:40 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.846 seconds (process running for 23023.098)
+2024-07-18 23:03:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:03:40 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:03:48 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-18 23:03:48 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 17600 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:03:48 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:03:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:03:49 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:03:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:03:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:03:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 432 ms
+2024-07-18 23:03:49 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:03:49 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-18 23:03:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:03:49 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.618 seconds (process running for 23032.501)
+2024-07-18 23:03:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:03:49 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:08:49 [RMI TCP Connection(229)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-18 23:08:56 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 13696 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:08:56 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:08:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-18 23:08:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-18 23:08:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:08:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:08:59 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:08:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:08:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:08:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 3478 ms
+2024-07-18 23:09:01 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:09:02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-18 23:09:02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:09:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:09:02 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 7.308 seconds (process running for 9.101)
+2024-07-18 23:09:02 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:14:42 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-18 23:14:42 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:14:42 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 13696 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:14:42 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:14:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:14:42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:14:42 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:14:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:14:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:14:42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 561 ms
+2024-07-18 23:14:42 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:14:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-18 23:14:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:14:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:14:43 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.96 seconds (process running for 349.869)
+2024-07-18 23:14:43 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:14:43 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:15:16 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-18 23:15:16 [RMI TCP Connection(17)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:15:22 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 28752 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:15:22 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:15:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-18 23:15:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-18 23:15:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:15:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:15:26 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:15:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:15:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:15:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 4788 ms
+2024-07-18 23:15:29 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:15:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-18 23:15:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:15:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:15:31 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 10.409 seconds (process running for 11.996)
+2024-07-18 23:15:31 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:16:51 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-18 23:16:51 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-18 23:16:51 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2 ms
+2024-07-18 23:17:40 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-18 23:17:40 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:17:40 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 28752 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:17:40 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:17:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:17:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:17:41 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:17:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:17:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:17:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 588 ms
+2024-07-18 23:17:41 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:17:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-18 23:17:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:17:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:17:41 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.776 seconds (process running for 142.225)
+2024-07-18 23:17:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:17:41 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:17:43 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-18 23:17:43 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:17:44 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Starting TheaterPaymentApplication using Java 22.0.1 with PID 28752 (C:\Applications_Projects\CaseStudy\Theater-Payment\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Theater-Payment)
+2024-07-18 23:17:44 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-18 23:17:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-07-18 23:17:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:17:44 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-18 23:17:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 23:17:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-18 23:17:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 281 ms
+2024-07-18 23:17:44 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				CORS mappings configured: allow all origins and methods.
+2024-07-18 23:17:44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-18 23:17:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2024-07-18 23:17:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8088 (http) with context path '/'
+2024-07-18 23:17:44 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Started TheaterPaymentApplication in 0.46 seconds (process running for 145.286)
+2024-07-18 23:17:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2024-07-18 23:17:44 [restartedMain] INFO  c.t.p.TheaterPaymentApplication -
+				Theater Payment Application has started.
+2024-07-18 23:17:53 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-18 23:17:53 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-18 23:17:53 [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 1 ms
+2024-07-18 23:17:55 [http-nio-8088-exec-2] INFO  c.t.p.controller.RazorpayController -
+				Razorpay order created successfully. Order ID: order_OaBOwPdV0h9EbV
+2024-07-18 23:28:03 [http-nio-8088-exec-4] INFO  c.t.p.controller.RazorpayController -
+				Razorpay order created successfully. Order ID: order_OaBZecThBaYg0S

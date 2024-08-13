@@ -1,0 +1,1218 @@
+2024-07-19 00:00:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:05:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:10:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:15:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:20:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:25:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:30:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:35:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:40:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:45:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:50:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 00:55:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:00:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:05:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:10:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:15:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:20:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:25:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:30:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:35:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 01:40:47 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:35:16 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Starting BookingServiceApplication using Java 22.0.1 with PID 23788 (C:\Applications_Projects\CaseStudy\Booking-Service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Booking-Service)
+2024-07-19 13:35:16 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-19 13:35:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19 13:35:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19 13:35:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19 13:35:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 326 ms. Found 1 JPA repository interface.
+2024-07-19 13:35:19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=ae6945c0-2c9e-3bec-b605-e091d515d6ab
+2024-07-19 13:35:19 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-19 13:35:19 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-19 13:35:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8083 (http)
+2024-07-19 13:35:20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8083"]
+2024-07-19 13:35:20 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-19 13:35:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-19 13:35:20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-19 13:35:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 3193 ms
+2024-07-19 13:35:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19 13:35:20 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19 13:35:20 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-07-19 13:35:21 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19 13:35:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-07-19 13:35:21 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7924511b
+2024-07-19 13:35:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-07-19 13:35:21 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19 13:35:21 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-19 13:35:23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19 13:35:23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 13:35:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19 13:35:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2024-07-19 13:35:25 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/rooms' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:35:25 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/shows' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:35:25 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'EMAIL-SERVICE/api/v1' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:35:25 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/theaters' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:35:25 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/movies' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:35:27 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2024-07-19 13:35:27 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-19 13:35:27 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-19 13:35:28 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2024-07-19 13:35:28 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-07-19 13:35:29 [restartedMain] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplications(RestTemplateEurekaHttpClient.java:135)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1046)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:961)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:410)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:245)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:240)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:376)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.theater.booking.BookingServiceApplication.main(BookingServiceApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:170)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 66 more
+
+2024-07-19 13:35:29 [restartedMain] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-07-19 13:35:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1046)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:961)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:410)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:245)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:240)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:376)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.theater.booking.BookingServiceApplication.main(BookingServiceApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+
+2024-07-19 13:35:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initial registry fetch from primary servers failed
+2024-07-19 13:35:29 [restartedMain] WARN  c.netflix.discovery.DiscoveryClient -
+				Using default backup registry implementation which does not do anything.
+2024-07-19 13:35:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initial registry fetch from backup servers failed
+2024-07-19 13:35:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2024-07-19 13:35:29 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 13:35:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721376329538 with initial instances count: 0
+2024-07-19 13:35:29 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application BOOKING-SERVICE with eureka with status UP
+2024-07-19 13:35:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721376329547, current=UP, previous=STARTING]
+2024-07-19 13:35:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8083"]
+2024-07-19 13:35:29 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083: registering service...
+2024-07-19 13:35:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8083 (http) with context path '/'
+2024-07-19 13:35:29 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8083
+2024-07-19 13:35:29 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/BOOKING-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/BOOKING-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:170)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 22 more
+
+2024-07-19 13:35:29 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/BOOKING-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-07-19 13:35:29 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-07-19 13:35:29 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-07-19 13:35:29 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Started BookingServiceApplication in 13.401 seconds (process running for 14.728)
+2024-07-19 13:35:29 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				BookingServiceApplication started successfully.
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-07-19 13:35:59 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2024-07-19 13:35:59 [DiscoveryClient-HeartbeatExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 - Re-registering apps/BOOKING-SERVICE
+2024-07-19 13:35:59 [DiscoveryClient-HeartbeatExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083: registering service...
+2024-07-19 13:35:59 [DiscoveryClient-HeartbeatExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 - registration status: 204
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: false
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-07-19 13:36:29 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 4 ms
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  c.t.b.controller.BookingController -
+				Received request to create booking: BookingDto[id=0, userMail=a@mail.com, showId=7, bookingDate=2024-07-19T08:06:45.917, showTime=2024-07-25T12:24, seatId=110, bookingReference=null, status=Confirmed, createdAt=2024-07-19T08:06:45.917, updatedAt=2024-07-19T08:06:45.917, userName=a, seatName=null]
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  c.t.b.s.i.BookingService -
+				Creating booking for user: a@mail.com
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /7
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:09 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@47faace0
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /2
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@37cbfef1
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /room/2
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@6c59905f
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /room/2/110
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: POST
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@ee1899c
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.s.i.BookingService -
+				Booking saved with reference: cb2173f7-7072-472e-8016-9f4fd37da177
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /2
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: PUT
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {Content-Length=[3096], Content-Type=[application/json]}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@5ac9d5c1
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /2
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@7a299e01
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /1
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@52988678
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /seat/110
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@5580f371
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /pdf
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: POST
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {Content-Length=[344], Content-Type=[application/json]}
+2024-07-19 13:37:10 [http-nio-8083-exec-1] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@dea3353
+2024-07-19 13:37:16 [http-nio-8083-exec-1] INFO  c.t.b.controller.BookingController -
+				Booking created successfully
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.controller.BookingController -
+				Received request to create booking: BookingDto[id=0, userMail=a@mail.com, showId=7, bookingDate=2024-07-19T08:07:36.449, showTime=2024-07-25T12:24, seatId=111, bookingReference=null, status=Confirmed, createdAt=2024-07-19T08:07:36.449, updatedAt=2024-07-19T08:07:36.449, userName=a, seatName=null]
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.s.i.BookingService -
+				Creating booking for user: a@mail.com
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /7
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@47faace0
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /2
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@37cbfef1
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /room/2
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@6c59905f
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /room/2/111
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: POST
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@ee1899c
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.s.i.BookingService -
+				Booking saved with reference: c86712d4-f608-4810-8d61-518737af5206
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /2
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: PUT
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {Content-Length=[3095], Content-Type=[application/json]}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@694f0d84
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /2
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@7a299e01
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /1
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@52988678
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /seat/111
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@5580f371
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /pdf
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: POST
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {Content-Length=[344], Content-Type=[application/json]}
+2024-07-19 13:37:55 [http-nio-8083-exec-2] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@69596d56
+2024-07-19 13:37:59 [http-nio-8083-exec-2] INFO  c.t.b.controller.BookingController -
+				Booking created successfully
+2024-07-19 13:40:28 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:45:28 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:50:28 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.controller.BookingController -
+				Received request to create booking: BookingDto[id=0, userMail=g@mail.com, showId=13, bookingDate=2024-07-19T08:21:20.339, showTime=2024-07-27T13:40, seatId=701, bookingReference=null, status=Confirmed, createdAt=2024-07-19T08:21:20.339, updatedAt=2024-07-19T08:21:20.339, userName=g, seatName=null]
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.s.i.BookingService -
+				Creating booking for user: g@mail.com
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /13
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@47faace0
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /8
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:39 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@37cbfef1
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /room/8
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@6c59905f
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /room/8/701
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: POST
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@ee1899c
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.s.i.BookingService -
+				Booking saved with reference: a389fec0-e920-4953-95c7-3b164fca4ba8
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /8
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: PUT
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {Content-Length=[3107], Content-Type=[application/json]}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@677cf13
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /3
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@7a299e01
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /7
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@52988678
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /seat/701
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: GET
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@5580f371
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request to URL: /pdf
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Method: POST
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Headers: {Content-Length=[357], Content-Type=[application/json]}
+2024-07-19 13:51:40 [http-nio-8083-exec-4] INFO  c.t.b.c.FeignClientConfiguration -
+				Request Body: feign.Request$Body@39436828
+2024-07-19 13:51:44 [http-nio-8083-exec-4] INFO  c.t.b.controller.BookingController -
+				Booking created successfully
+2024-07-19 13:54:15 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Starting BookingServiceApplication using Java 22.0.1 with PID 30528 (C:\Applications_Projects\CaseStudy\Booking-Service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Booking-Service)
+2024-07-19 13:54:15 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-19 13:54:15 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Starting BookingServiceApplication using Java 22.0.1 with PID 29320 (C:\Applications_Projects\CaseStudy\Booking-Service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Booking-Service)
+2024-07-19 13:54:15 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-19 13:54:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19 13:54:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19 13:54:15 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Starting BookingServiceApplication using Java 22.0.1 with PID 15296 (C:\Applications_Projects\CaseStudy\Booking-Service\target\classes started by parikg in C:\Applications_Projects\CaseStudy\Booking-Service)
+2024-07-19 13:54:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19 13:54:15 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-07-19 13:54:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19 13:54:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19 13:54:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19 13:54:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19 13:54:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19 13:54:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19 13:54:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 229 ms. Found 1 JPA repository interface.
+2024-07-19 13:54:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 238 ms. Found 1 JPA repository interface.
+2024-07-19 13:54:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 222 ms. Found 1 JPA repository interface.
+2024-07-19 13:54:17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=ae6945c0-2c9e-3bec-b605-e091d515d6ab
+2024-07-19 13:54:17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=ae6945c0-2c9e-3bec-b605-e091d515d6ab
+2024-07-19 13:54:17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=ae6945c0-2c9e-3bec-b605-e091d515d6ab
+2024-07-19 13:54:17 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-19 13:54:17 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-19 13:54:17 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-19 13:54:17 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-19 13:54:17 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-19 13:54:17 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-07-19 13:54:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8073 (http)
+2024-07-19 13:54:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8063 (http)
+2024-07-19 13:54:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8053 (http)
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8053"]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8073"]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8063"]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-19 13:54:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 3277 ms
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-19 13:54:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 3392 ms
+2024-07-19 13:54:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-07-19 13:54:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 3417 ms
+2024-07-19 13:54:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19 13:54:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19 13:54:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19 13:54:18 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19 13:54:18 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19 13:54:18 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19 13:54:19 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-07-19 13:54:19 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-07-19 13:54:19 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-07-19 13:54:19 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19 13:54:19 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19 13:54:19 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19 13:54:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-07-19 13:54:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-07-19 13:54:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-07-19 13:54:20 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54b751a
+2024-07-19 13:54:20 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fb2d4e2
+2024-07-19 13:54:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-07-19 13:54:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-07-19 13:54:20 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f9040b
+2024-07-19 13:54:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-07-19 13:54:20 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19 13:54:20 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19 13:54:20 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-19 13:54:20 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-19 13:54:20 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19 13:54:20 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-19 13:54:21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19 13:54:21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19 13:54:21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19 13:54:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 13:54:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 13:54:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 13:54:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19 13:54:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19 13:54:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19 13:54:22 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-19 13:54:22 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-19 13:54:22 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/rooms' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/rooms' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/rooms' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/shows' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/shows' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/shows' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'EMAIL-SERVICE/api/v1' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'EMAIL-SERVICE/api/v1' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'EMAIL-SERVICE/api/v1' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/theaters' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/theaters' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/theaters' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/movies' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/movies' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:22 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean -
+				For 'THEATER-SERVICE/api/v1/movies' URL not provided. Will try picking an instance via load-balancing.
+2024-07-19 13:54:23 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2024-07-19 13:54:23 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2024-07-19 13:54:23 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2024-07-19 13:54:23 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-19 13:54:23 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-19 13:54:23 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-19 13:54:23 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-19 13:54:23 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-19 13:54:23 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-19 13:54:23 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-07-19 13:54:23 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-07-19 13:54:23 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2024-07-19 13:54:23 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2024-07-19 13:54:24 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721377464440 with initial instances count: 6
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application BOOKING-SERVICE with eureka with status UP
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721377464449, current=UP, previous=STARTING]
+2024-07-19 13:54:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8053"]
+2024-07-19 13:54:24 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053: registering service...
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2024-07-19 13:54:24 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721377464482 with initial instances count: 6
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application BOOKING-SERVICE with eureka with status UP
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8053 (http) with context path '/'
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721377464492, current=UP, previous=STARTING]
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8053
+2024-07-19 13:54:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8063"]
+2024-07-19 13:54:24 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063: registering service...
+2024-07-19 13:54:24 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Started BookingServiceApplication in 10.262 seconds (process running for 12.155)
+2024-07-19 13:54:24 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 - registration status: 204
+2024-07-19 13:54:24 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				BookingServiceApplication started successfully.
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2024-07-19 13:54:24 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1721377464556 with initial instances count: 6
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8063 (http) with context path '/'
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8063
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application BOOKING-SERVICE with eureka with status UP
+2024-07-19 13:54:24 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721377464570, current=UP, previous=STARTING]
+2024-07-19 13:54:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8073"]
+2024-07-19 13:54:24 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073: registering service...
+2024-07-19 13:54:24 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 - registration status: 204
+2024-07-19 13:54:24 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Started BookingServiceApplication in 10.177 seconds (process running for 11.834)
+2024-07-19 13:54:24 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				BookingServiceApplication started successfully.
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8073 (http) with context path '/'
+2024-07-19 13:54:24 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8073
+2024-07-19 13:54:24 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				Started BookingServiceApplication in 10.295 seconds (process running for 12.059)
+2024-07-19 13:54:24 [restartedMain] INFO  c.t.b.BookingServiceApplication -
+				BookingServiceApplication started successfully.
+2024-07-19 13:54:24 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 - registration status: 204
+2024-07-19 13:55:28 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:59:23 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:59:23 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 13:59:23 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 14:00:28 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 14:04:23 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 14:04:23 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 14:04:23 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:44:20 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:44:43 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h39m22s905ms339µs800ns).
+2024-07-19 16:44:43 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h39m22s884ms143µs).
+2024-07-19 16:44:43 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h39m22s871ms676µs300ns).
+2024-07-19 16:44:45 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h39m22s832ms16µs700ns).
+2024-07-19 16:48:16 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:48:16 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:48:16 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:49:20 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:53:16 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:53:16 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:53:16 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-07-19 16:53:51 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-19 16:53:51 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application BOOKING-SERVICE with eureka with status DOWN
+2024-07-19 16:53:51 [RMI TCP Connection(48)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721388231815, current=DOWN, previous=UP]
+2024-07-19 16:53:51 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083: registering service...
+2024-07-19 16:53:51 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 - registration status: 204
+2024-07-19 16:53:51 [RMI TCP Connection(48)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8083"]
+2024-07-19 16:53:52 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 16:53:52 [RMI TCP Connection(48)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-07-19 16:53:52 [RMI TCP Connection(48)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-07-19 16:53:52 [RMI TCP Connection(48)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-19 16:53:55 [RMI TCP Connection(48)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2024-07-19 16:53:55 [RMI TCP Connection(48)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8083 - deregister  status: 200
+2024-07-19 16:53:55 [RMI TCP Connection(48)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2024-07-19 16:53:55 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-19 16:53:55 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application BOOKING-SERVICE with eureka with status DOWN
+2024-07-19 16:53:55 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721388235940, current=DOWN, previous=UP]
+2024-07-19 16:53:55 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053: registering service...
+2024-07-19 16:53:55 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 - registration status: 204
+2024-07-19 16:53:55 [RMI TCP Connection(25)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8053"]
+2024-07-19 16:53:55 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 16:53:55 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-07-19 16:53:56 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-07-19 16:53:56 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8053 - deregister  status: 200
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application BOOKING-SERVICE with eureka with status DOWN
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721388239535, current=DOWN, previous=UP]
+2024-07-19 16:53:59 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063: registering service...
+2024-07-19 16:53:59 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 - registration status: 204
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8063"]
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-07-19 16:53:59 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-19 16:54:02 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2024-07-19 16:54:02 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8063 - deregister  status: 200
+2024-07-19 16:54:02 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application BOOKING-SERVICE with eureka with status DOWN
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1721388243315, current=DOWN, previous=UP]
+2024-07-19 16:54:03 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073: registering service...
+2024-07-19 16:54:03 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 - registration status: 204
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8073"]
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-07-19 16:54:03 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2024-07-19 16:54:06 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2024-07-19 16:54:06 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_BOOKING-SERVICE/LIN-PF1JSCZH.corp.capgemini.com:Booking-Service:8073 - deregister  status: 200
+2024-07-19 16:54:06 [RMI TCP Connection(25)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient

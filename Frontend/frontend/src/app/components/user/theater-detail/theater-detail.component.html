@@ -1,0 +1,37 @@
+<div class="bdy">
+  <div *ngIf="theater" class="container">
+    <div class="cont container">
+      <h2>{{ theater.name }}</h2>
+      <p><strong>Location:</strong> {{ theater.location }}</p>
+      <h4>Rooms</h4>
+    </div>
+    <div class="row">
+      <div *ngFor="let room of rooms" class="col-md-4 mb-3">
+        <div *ngIf="room.showIds.length > 0" class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ room.name }}</h5>
+            <p><strong>Capacity:</strong> {{ room.availableSeats }}</p>
+            <div *ngIf="room.showDetails">
+              <p>
+                <strong>Show Name:</strong> {{ room.showDetails.movieTitle }}
+              </p>
+              <p>
+                <strong>Show Time:</strong>
+                {{ room.showDetails.startTime | date : "short" }}
+              </p>
+              <p>
+                <strong>Price:</strong>
+                {{ room.showDetails.price | currency : "INR" }}
+              </p>
+            </div>
+            <button class="btn" (click)="selectRoom(room)">View Seats</button
+            >&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn" (click)="movieDetails(room.showIds[0])">
+              Movie Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

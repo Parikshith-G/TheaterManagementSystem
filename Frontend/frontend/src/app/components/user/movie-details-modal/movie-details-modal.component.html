@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{ movieDetails.title }}</h4>
+</div>
+<div class="modal-body">
+  <p><strong>Title:</strong> {{ movieDetails.title }}</p>
+  <p><strong>Description:</strong> {{ movieDetails.description }}</p>
+  <p><strong>Cost:</strong> {{ movieDetails.duration }}</p>
+
+  <p><strong>Genre:</strong> {{ movieDetails.genre }}</p>
+</div>
+<div class="modal-footer">
+  <button
+    type="button"
+    class="btn btn-secondary"
+    (click)="activeModal.close('Close click')"
+  >
+    Close
+  </button>
+</div>

@@ -1,0 +1,165 @@
+<div class="bdy">
+  <button type="button" class="btn btn-primary" (click)="showSignUp = true">
+    Sign Up
+  </button>
+
+  <!-- Sign Up Modal -->
+  <div *ngIf="showSignUp" class="modal fade show" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <!-- Sign Up Form -->
+          <div class="column" id="main">
+            <h1>Sign Up</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+            <form [formGroup]="signUpForm" (ngSubmit)="onSignUp()">
+              <!-- Form Fields -->
+              <div class="form-group">
+                <label for="exampleInputName">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputName"
+                  formControlName="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  formControlName="email"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  formControlName="password"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+          </div>
+          <!-- Sign Up Form End -->
+
+          <!-- Flip Book Icon -->
+          <div>
+            <svg
+              width="67px"
+              height="578px"
+              viewBox="0 0 67 578"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Path</title>
+              <desc>Created with Sketch.</desc>
+              <path
+                d="M11.3847656,-5.68434189e-14 C-7.44726562,36.7213542 5.14322917,126.757812 49.15625,270.109375 C70.9827986,341.199016 54.8877465,443.829224 0.87109375,578 L67,578 L67,-5.68434189e-14 L11.3847656,-5.68434189e-14 Z"
+                fill="#F9BC35"
+              ></path>
+            </svg>
+          </div>
+
+          <!-- Secondary Column -->
+          <div class="column" id="secondary">
+            <div class="sec-content">
+              <h2>Welcome Back!</h2>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+              <!-- Button to toggle to Login -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                (click)="showSignUp = false"
+              >
+                Login
+              </button>
+            </div>
+          </div>
+          <!-- Secondary Column End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sign Up Modal End -->
+
+  <!-- Login Modal -->
+  <div *ngIf="!showSignUp" class="modal fade show" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <!-- Login Form -->
+          <div class="column" id="main">
+            <h1>Login</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+            <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+              <!-- Form Fields -->
+              <div class="form-group">
+                <label for="exampleInputEmail1">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  formControlName="email"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  formControlName="password"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+          </div>
+          <!-- Login Form End -->
+
+          <!-- Flip Book Icon -->
+          <div>
+            <svg
+              width="67px"
+              height="578px"
+              viewBox="0 0 67 578"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Path</title>
+              <desc>Created with Sketch.</desc>
+              <path
+                d="M11.3847656,-5.68434189e-14 C-7.44726562,36.7213542 5.14322917,126.757812 49.15625,270.109375 C70.9827986,341.199016 54.8877465,443.829224 0.87109375,578 L67,578 L67,-5.68434189e-14 L11.3847656,-5.68434189e-14 Z"
+                fill="#F9BC35"
+              ></path>
+            </svg>
+          </div>
+
+          <!-- Secondary Column -->
+          <div class="column" id="secondary">
+            <div class="sec-content">
+              <h2>New User?</h2>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+              <!-- Button to toggle to Sign Up -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                (click)="showSignUp = true"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+          <!-- Secondary Column End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Login Modal End -->
+</div>

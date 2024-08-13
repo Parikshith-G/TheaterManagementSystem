@@ -1,0 +1,26 @@
+.custom-toastr {
+  position: relative;
+  max-width: 350px;
+  width: auto;
+  background-color: gold;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.toast-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.toast-body {
+  padding: 0.75rem;
+}

@@ -1,0 +1,73 @@
+<div class="container">
+  <h2>Manage Movies</h2>
+  <button class="btn btn-primary" (click)="open(movieModal)">Add Movie</button>
+  <div class="row mt-4">
+    <div class="col" *ngFor="let movie of movies">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ movie.title }}</h5>
+          <p class="card-text">{{ movie.genre }}</p>
+          <p class="card-text">{{ movie.duration }} min</p>
+          <button class="btn btn-danger" (dblclick)="deleteMovie(movie.id)">
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #movieModal let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title">Add Movie</h4>
+    </div>
+    <div class="modal-body">
+      <form (ngSubmit)="addMovie()">
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            [(ngModel)]="newMovie.title"
+            name="title"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="genre" class="form-label">Genre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="genre"
+            [(ngModel)]="newMovie.genre"
+            name="genre"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="duration" class="form-label">Duration (min)</label>
+          <input
+            type="number"
+            class="form-control"
+            id="duration"
+            [(ngModel)]="newMovie.duration"
+            name="duration"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea
+            class="form-control"
+            id="description"
+            [(ngModel)]="newMovie.description"
+            name="description"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Movie</button>
+      </form>
+    </div>
+  </ng-template>
+</div>

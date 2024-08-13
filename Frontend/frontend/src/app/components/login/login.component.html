@@ -1,0 +1,110 @@
+<div id="back">
+  <!-- partial:index.partial.html -->
+
+  <section>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
+
+    <form [formGroup]="userForms" (ngSubmit)="loginHandler()" class="signin">
+      <div class="content">
+        <h2>Sign In</h2>
+
+        <div class="form">
+          <div class="inputBox" *ngIf="!isItForgotten">
+            <input
+              (blur)="updateEmailHandler()"
+              type="text"
+              formControlName="email"
+            />
+            <i>Email Id</i>
+          </div>
+
+          <div class="inputBox" *ngIf="!didForget">
+            <input type="password" formControlName="password" />
+            <i>Password</i>
+          </div>
+
+          <div class="inputBox" *ngIf="didForget && isOtpSent">
+            <input type="number" #otp (blur)="validateOtp(otp.value)" />
+            <i>OTP</i>
+          </div>
+
+          <div class="inputBox" *ngIf="didForget && isOtpValidated">
+            <input type="password" formControlName="newPassword" />
+            <i>New Password</i>
+          </div>
+
+          <div class="inputBox" *ngIf="didForget && isOtpValidated">
+            <input
+              type="password"
+              formControlName="confirmNewPassword"
+              (blur)="confirmPasswordReset()"
+            />
+            <i>Confirm Password</i>
+          </div>
+          <div class="links">
+            <a class="forgot" (click)="forgotPasswordHandler()"
+              ><strong>Forgot Password ?</strong></a
+            >
+            <a [routerLink]="['/register']">Signup</a>
+          </div>
+
+          <div *ngIf="!forgotten" class="inputBox">
+            <input type="submit" value="Login" />
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+  <!-- partial -->
+</div>

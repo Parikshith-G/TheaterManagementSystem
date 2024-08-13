@@ -1,0 +1,33 @@
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th *ngIf="role === 'GOD'">Promote</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users; index as i">
+        <td>{{ i + 1 }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+
+        <td *ngIf="role === 'GOD'">
+          <button class="btn btn-info" (dblclick)="promoteUser(user.id)">
+            Promote User
+          </button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (dblclick)="deleteUser(user.id)">
+            Delete User
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

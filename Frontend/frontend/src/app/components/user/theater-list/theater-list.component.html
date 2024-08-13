@@ -1,0 +1,56 @@
+<div class="back">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search movie names"
+          [(ngModel)]="searchTerm"
+          (ngModelChange)="filterTheaters()"
+          autocomplete="off"
+        />
+        <div class="dropdown mt-1" *ngIf="searchList.length > 0">
+          <ul class="list-group">
+            <li
+              class="list-group-item"
+              *ngFor="let item of searchList"
+              (click)="selectItem(item.roomId)"
+            >
+              <div class="row">
+                <div class="col-md-2">
+                  {{ item.movieName }}
+                </div>
+                <div class="col-md-2">
+                  {{ item.location }}
+                </div>
+                <div class="col-md-2">{{ item.ddmm }}(dd-mm)</div>
+                <div class="col-md-2">{{ item.hhtt }}(hr-min)</div>
+                <div class="col-md-2">
+                  {{ item.price | currency : "INR" }}
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="cont container">Theater List</div>
+        <div class="row">
+          <div class="col-md-6" *ngFor="let theater of theaters">
+            <div class="card mb-4">
+              <div class="card-body">
+                <div class="card-title">{{ theater.name }}</div>
+                <div class="card-text">{{ theater.location }}</div>
+                <a [routerLink]="['/theater-details', theater.id]" class="btn"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
